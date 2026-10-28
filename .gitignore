@@ -1,0 +1,29 @@
+# Maven build files
+**/target/
+
+# IntelliJ files
+.idea/
+**/.idea/
+*.iml
+
+# Logs
+*.log
+
+# Secrets and local configuration
+.env
+**/.env
+application-local.properties
+
+# Local database files
+**/data/*.db
+**/data/*.mv.db
+**/data/*.trace.db
+
+# Build output
+**/target/
+**/data/*.db
+**/data/*.mv.db
+**/data/*.trace.db
+.idea/
+**/.idea/
+*.iml
